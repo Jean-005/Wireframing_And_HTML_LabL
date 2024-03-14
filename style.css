@@ -185,7 +185,20 @@ nav {
     margin: 1px;
 }
 
+/* Footer */
+footer{
+    margin: 30px;
+    margin-top: 50px;
+    text-align: center;
+}
 
+footer a{
+    margin-right: 50px;
+    font-size: 14px;
+    color: rgb(86, 86, 86);
+    text-decoration: none;
+    font-family: sans-serif;
+}
 
 /* Media Query for Tablet */
 @media screen and (max-width: 768px) {
