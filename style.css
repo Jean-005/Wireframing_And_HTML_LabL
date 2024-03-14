@@ -1,3 +1,57 @@
+/* Top Nav Bar */
+
+nav {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#image1 {
+width: 270px;
+height:270px;
+border-radius: 50%;
+}
+
+.highlights__images {
+    width: 150px;
+    height:150px;
+    border-radius: 50%;
+}
+
+#main-posts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.posts{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 50%;
+}
+
+.posts img{
+    width: 240px;
+    height:300px;
+    margin: 5px;
+}
+
+.profile {
+grid-template-columns: 1fr 1fr;
+display: grid;
+padding: 50px;
+}
+
+.highlights {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+
+
 h1 {
 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
